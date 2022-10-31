@@ -131,3 +131,20 @@ ul {
   z-index: 999;
   margin-left: -220px;
 }
+
+table {
+  border-collapse: collapse;
+}
+
+caption {
+  font-size: 2rem;
+}
+
+.th-table,
+.td-table {
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(228, 228, 228);
+}
