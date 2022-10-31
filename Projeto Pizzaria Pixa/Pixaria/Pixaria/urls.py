@@ -11,4 +11,5 @@ urlpatterns = [
     path('pizzas/', views.pizzas, name = 'pizzas'),
     path('restaurantes/', views.restaurantes, name = 'restaurantes'),
     path('perfil/', views.perfil, name = 'perfil'),
+    path('accounts/', include('allauth.urls')),
 ]
