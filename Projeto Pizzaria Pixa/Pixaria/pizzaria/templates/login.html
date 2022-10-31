@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{% static '../static/css/auth.css' %}">
+  <title>Login | Pixaria</title>
+</head>
+
+<body>
+
+  <div class="container-login">
+    <h1 class="login-tittle">Login</h1>
+    <form action="" class="form-login">
+      <div class="input-box">
+        <label for="" class="input-label">Usuário</label>
+        <input type="text" class="input nome" placeholder="Usuário" required>
+      </div>
+      <div class="input-box">
+        <label for="" class="input-label">Senha:</label>
+        <input type="text" class="input senha" placeholder="Senha" required>
+      </div>
+      <div class="lembrar-login">
+        Lembre de mim
+        <input type="checkbox" name="remenber" id="check-login">
+      </div>
+      <input type="submit" value="Logar" class="btn-login">
+
+      <div class="help-links">
+        <a href="" class="help-link-a">
+          <p class="p-link">Esqueceu a senha?</p>
+        </a>
+        <a href="{% url 'register' %}" class="help-link-a">
+          <p class="p-link">Cadastrar-se</p>
+        </a>
+      </div>
+    </form>
+  </div>
+
+</body>
+
+</html>

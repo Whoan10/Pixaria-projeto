@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+.login-tittle {
+  padding: 10px 0px 20px 0;
+  margin-bottom: 25px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.container-login {
+  width: 300px;
+  background-color: white;
+  text-align: center;
+  padding: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.input {
+  width: 230px;
+  height: 30px;
+  margin-top: 5px;
+  padding: 5px 10px;
+  border: 1px solid #303030;
+}
+
+.input:focus {
+  outline: none;
+  border: 1px solid #303030;
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+  gap: .7rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-login {
+  padding: 10px 40px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  background-color: #e05151;
+  color: white;
+  transition: .1s;
+}
+
+.btn-login:hover {
+  background-color: rgb(241, 120, 120);
+}
+
+.input-box {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+}
+
+.senha {
+  margin-bottom: 10px;
+}
+
+.lembrar-login {
+  display: flex;
+  gap: .3rem;
+  margin-right: 100px;
+  color: #929292;
+  margin-bottom: 10px;
+}
+
+.help-links {
+  display: flex;
+  flex-direction: column;
+  color: #929292;
+  margin-top: 5px;
+}
+
+.p-link:hover {
+  color: #e05151;
+  cursor: pointer;
+}
+
+.help-link-a {
+  text-decoration: none;
+  color: #929292;
+}
