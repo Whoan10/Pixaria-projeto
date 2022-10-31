@@ -16,3 +16,6 @@ def restaurantes(request):
 
 def register(request): 
   return render(request, 'register.html')
+
+def perfil(request): 
+  return render(request, 'user-page.html')

@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{% static '../static/css/user-style.css' %}">
+  <title>Perfil</title>
+</head>
+
+<body>
+
+  <div class="container-perfil">
+    <div class="left-side">
+      <img src="{% static '../static/img/user.png' %}" alt="silhueta de um homem" class="user-img">
+    </div>
+    <div class="right-side">
+      <h1 class="user-tittle">Usuário</h1>
+      <div class="info-label">
+        <label for="" class="label-box">ID:</label>
+        <div class="info-box"></div>
+      </div>
+      <div class="info-label">
+        <label for="" class="label-box">Nome:</label>
+        <div class="info-box"></div>
+      </div>
+      <div class="info-label">
+        <label for="" class="label-box">Sobrenome:</label>
+        <div class="info-box"></div>
+      </div>
+      <div class="info-label">
+        <label for="" class="label-box">Email:</label>
+        <div class="info-box"></div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
