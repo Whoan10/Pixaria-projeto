@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #f8f8f8;
+}
+
 .header {
   width: 100%;
   background-color: #d56262;
@@ -24,10 +28,10 @@
 }
 
 .btn {
-  padding: 10px 25px;
+  padding: 5px 10px;
   border-radius: 8px;
+  font-size: 1rem;
   border: none;
-  font-size: 1.1rem;
   background-color: white;
   font-weight: 100;
   cursor: pointer;
@@ -35,7 +39,6 @@
 
 .btn-login {
   color: grey;
-  max-width: 5vw;
 }
 
 .navbar {

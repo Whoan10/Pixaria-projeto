@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\Juan\Documents\GitHubs projects\Pixaria-projeto\venv"
+VIRTUAL_ENV="C:\Users\Juan\Documents\GitHubs projects\Pixaria-projeto\Projeto Pizzaria Pixa\Pixaria\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
